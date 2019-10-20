@@ -1,0 +1,19 @@
+{
+    "name" : "Card Nice",
+    "short_name" : "Card Nice",
+    "theme_color": "#3b0077",
+    "background_color": "#3b0077",
+    "description" : "This is a memory game.",
+    "start_url" : "/",
+    "orientation" : "landscape",
+    "lang" : "Portuguese",
+    "display" : "standalone",
+    "scope" : "/",
+    "icons" : [
+        {
+            "src": "/assets/images/favicon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
