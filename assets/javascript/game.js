@@ -43,12 +43,12 @@
                     const CARD_FRONT = document.createElement('div');
                     const CARD_BACK  = document.createElement('div');
                     const LETTER     = document.createTextNode(letter);
-        
+
                     CARD.setAttribute('class', `card -${letter}`);
                     CARD_FLIP.setAttribute('class', 'card-flip-off');
                     CARD_FRONT.setAttribute('class', 'card-front');
                     CARD_BACK.setAttribute('class', 'card-back');
-                    
+
                     CARD_BACK.appendChild(LETTER);
                     CARD_FLIP.appendChild(CARD_FRONT);
                     CARD_FLIP.appendChild(CARD_BACK);
@@ -72,17 +72,17 @@
                 eachCard.addEventListener('click', () => {
                     if(this.CURRENT_CARD.length < 2 && this.STORE_CARD_CLASS.length < 2){
                         this.untapCard(eachCard, index);
-                        
-                        if(this.CURRENT_CARD.length === 2 && this.STORE_CARD_CLASS.length === 2 && this.CURRENT_CARD[0] === this.CURRENT_CARD[1]) { 
+
+                        if(this.CURRENT_CARD.length === 2 && this.STORE_CARD_CLASS.length === 2 && this.CURRENT_CARD[0] === this.CURRENT_CARD[1]) {
                             counter++;
 
                             if(counter === 4) { this.successful(); }
 
-                            this.deleteTheCards(eachCard);   
+                            this.deleteTheCards(eachCard);
                         }
-            
+
                         if(this.CURRENT_CARD.length === 2 && this.STORE_CARD_CLASS.length === 2 && this.CURRENT_CARD[0] !== this.CURRENT_CARD[1]) {
-                            this.hideTheCards(eachCard); 
+                            this.hideTheCards(eachCard);
                         }
                     }
                 });
@@ -92,17 +92,17 @@
         untapCard(eachCard, index) {
             this.CARD_FLIP[index].setAttribute('class', 'card-flip');
             eachCard.setAttribute('class', `${eachCard.className} -noClick`);
-            
+
             this.CURRENT_CARD.push(eachCard.textContent.trim());
             this.STORE_CARD_CLASS.push(eachCard);
             this.STORE_CARD_FLIP_CLASS.push(this.CARD_FLIP[index]);
         }
 
-        deleteTheCards(eachCard){ 
+        deleteTheCards(eachCard){
             setTimeout(() => {
                 this.STORE_CARD_CLASS[0].setAttribute('class', `${eachCard.className} -hidden`);
                 this.STORE_CARD_CLASS[1].setAttribute('class', `${eachCard.className} -hidden`);
-            
+
                 this.CURRENT_CARD          = [];
                 this.STORE_CARD_CLASS      = [];
                 this.STORE_CARD_FLIP_CLASS = [];
@@ -135,6 +135,7 @@
 
     const CARD_NICE = new Game(null, null, [], [], []);
 
-    START.addEventListener('click', function() { CARD_NICE.start() });
+    START.addEventListener('click', function() { CARD_NICE.start(); });
 })();
+
 
