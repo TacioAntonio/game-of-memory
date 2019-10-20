@@ -5,7 +5,7 @@
     "background_color": "#3b0077",
     "description" : "This is a memory game.",
     "start_url" : "/",
-    "orientation" : "landscape",
+    "orientation" : "portrait",
     "lang" : "Portuguese",
     "display" : "standalone",
     "scope" : "/",
