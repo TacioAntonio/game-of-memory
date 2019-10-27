@@ -7,11 +7,11 @@ O jogo da memória pode ser jogado somente com um único jogador. É um jogo cri
 The memory game can only be played with a single player. It is a game created on the idea of ​​a PWA, so it can be run on multiple platforms.
 
 #### **GUI prototype**
-![img](https://i.ibb.co/C175YkD/Opera-Instant-neo-2019-10-26-184031-tacioantonio-github-io.png)
+![img](https://i.ibb.co/jD8V9JC/687474703a2f2f6875616e677875616e2e6d652f696d672f626c6f672d736964656261722e6a7067-C-pia-4-C-pia.jpg)
 ---
-![img](https://i.ibb.co/K7QLgv3/Opera-Instant-neo-2019-10-26-184031-tacioantonio-github-io.png)
-![img](https://i.ibb.co/SxZf398/Opera-Instant-neo-2019-10-26-184236-tacioantonio-github-io.png)
-![img](https://i.ibb.co/k4NvcnN/Opera-Instant-neo-2019-10-26-184354-tacioantonio-github-io.png)
+![img](https://i.ibb.co/LSHr0J1/687474703a2f2f6875616e677875616e2e6d652f696d672f626c6f672d736964656261722e6a7067-C-pia-2-C-pia.jpg)
+![img](https://i.ibb.co/2MjFcvZ/687474703a2f2f6875616e677875616e2e6d652f696d672f626c6f672d736964656261722e6a7067-C-pia-2.jpg)
+![img](https://i.ibb.co/zVfzmNG/687474703a2f2f6875616e677875616e2e6d652f696d672f626c6f672d736964656261722e6a7067-C-pia-3-C-pia.jpg)
 
 ### **License**
 
