@@ -5,9 +5,8 @@
     "background_color": "#3b0077",
     "description" : "This is a memory game.",
     "start_url" : "/",
-    "orientation" : "portrait",
     "lang" : "Portuguese",
-    "display" : "standalone",
+    "display" : "fullscreen",
     "scope" : "/",
     "icons" : [
         {
