@@ -9,9 +9,9 @@ The memory game can only be played with a single player. It is a game created on
 #### **GUI prototype**
 ![img](https://i.ibb.co/jD8V9JC/687474703a2f2f6875616e677875616e2e6d652f696d672f626c6f672d736964656261722e6a7067-C-pia-4-C-pia.jpg)
 ---
-![img](https://i.ibb.co/LSHr0J1/687474703a2f2f6875616e677875616e2e6d652f696d672f626c6f672d736964656261722e6a7067-C-pia-2-C-pia.jpg)
-![img](https://i.ibb.co/2MjFcvZ/687474703a2f2f6875616e677875616e2e6d652f696d672f626c6f672d736964656261722e6a7067-C-pia-2.jpg)
 ![img](https://i.ibb.co/zVfzmNG/687474703a2f2f6875616e677875616e2e6d652f696d672f626c6f672d736964656261722e6a7067-C-pia-3-C-pia.jpg)
+![img](https://i.ibb.co/2MjFcvZ/687474703a2f2f6875616e677875616e2e6d652f696d672f626c6f672d736964656261722e6a7067-C-pia-2.jpg)
+![img](https://i.ibb.co/LSHr0J1/687474703a2f2f6875616e677875616e2e6d652f696d672f626c6f672d736964656261722e6a7067-C-pia-2-C-pia.jpg)
 
 ### **License**
 
