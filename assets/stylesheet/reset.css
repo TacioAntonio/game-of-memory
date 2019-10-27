@@ -9,29 +9,26 @@ html, body {
     height: 100%;
     font-size: 100%;
     background-color: #663399;
+    overflow: hidden;
 }
 
 .-delete {
     display: none;
 }
-
+/*
 ::-webkit-scrollbar {
   width: 12px;
   height: 12px;
 }
-
-/* Track */
 ::-webkit-scrollbar-track {
   background: transparent;
 }
 
-/* Handle */
 ::-webkit-scrollbar-thumb {
   border-radius: 12px;
   background: rgb(144, 0, 240);
 }
 
-/* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: rgb(123, 0, 206);
-}
+} */
