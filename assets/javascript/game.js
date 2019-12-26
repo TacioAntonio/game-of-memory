@@ -16,16 +16,16 @@
         }
 
         start() {
-            MENU_OPTIONS.setAttribute('class', 'menu-options -delete');
-            LOADER.setAttribute('class', 'loader');
+            MENU_OPTIONS.classList.add('-delete');
+            LOADER.classList.remove('-delete');
 
             setTimeout(() => {
-                LOADER.setAttribute('class', 'loader -delete');
-                CARD_NICE_GAME.setAttribute('class', 'card-nice-game');
+                  LOADER.classList.add('-delete');
+                  CARD_NICE_GAME.classList.remove('-delete');
 
-                this.createAllCards();
-                this.actionsOfCards();
-            }, 5 * 1000);
+                  this.createAllCards();
+                  this.actionsOfCards();
+              }, 5 * 1000);
         }
 
         createAllCards() {
@@ -124,8 +124,8 @@
 
         successful() {
             setTimeout(() => {
-                CARD_NICE_GAME.setAttribute('class', 'card-nice-game -delete');
-                SUCCESSFUL.setAttribute('class', 'successful');
+                CARD_NICE_GAME.classList.add('-delete');
+                SUCCESSFUL.classList.remove('-delete');
                 setTimeout(function() {
                     window.location.reload(1);
                 }, 3*1000);
